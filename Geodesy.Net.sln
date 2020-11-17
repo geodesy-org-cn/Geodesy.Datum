@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geodesy.Datum", "Geodesy.Datum\Geodesy.Datum.csproj", "{E0B9AB84-FC15-4E75-9E4C-AC08B9652D93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geodesy.Test", "Geodesy.Test\Geodesy.Test.csproj", "{726F5E96-EED7-4806-B32C-20930B17809E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B9AB84-FC15-4E75-9E4C-AC08B9652D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B9AB84-FC15-4E75-9E4C-AC08B9652D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B9AB84-FC15-4E75-9E4C-AC08B9652D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B9AB84-FC15-4E75-9E4C-AC08B9652D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726F5E96-EED7-4806-B32C-20930B17809E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726F5E96-EED7-4806-B32C-20930B17809E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726F5E96-EED7-4806-B32C-20930B17809E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726F5E96-EED7-4806-B32C-20930B17809E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAFE538F-C156-4426-BC50-AF9EC3D35F6B}
+	EndGlobalSection
+EndGlobal

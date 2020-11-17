@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Geodesy.Datum</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>2.2.7.1</AssemblyVersion>
+    <LangVersion>8.0</LangVersion>
+    
+    <PackageId>Geodesy.Datum</PackageId>
+    <Authors>geodesy.org.cn</Authors>
+    <Company>www.geodesy.org.cn</Company>
+    <Copyright>Copyright © www.geodesy.org.cn 2019-2020</Copyright>
+    <Version>2.2.7</Version>
+    <PackageTags>geodesy, ellipsoid, geodesic, coordinate, datum, transformation, projection, json</PackageTags>
+    <Description>
+      A professional geodetic calculation libary about coordinate system's definition, conversion, projection, transformation functions of geodetic datum such as ITRF, WGS84, BDCS, ETRS, etc.
+      This is a C# .net standard class library containing some professional geodetic algorithms on ellipsoid supports json data shared by Zhengzhou Insititute of Surveying and Mapping.
+      Geodesy.Datum defines the basic angle/latitude/longitude data type which can be simple serialized or deserialized to json. There are all different coordinate data type such as astronomic coordinate, geodetic coordinate, space rectangular coordinate, projected coordinate, spherical coordinate, etc.
+      The libary provides the functions of all types of coordinate conversion, geodetic calculations on ellipsoid surface, geodetic problem solutions, Gauss projection and UTM (MGRS, UPS), geodetic datum transformation.
+    </Description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Coordinate\IHeightCoord.cs" />
+    <Compile Remove="Transformation\Matrix.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
